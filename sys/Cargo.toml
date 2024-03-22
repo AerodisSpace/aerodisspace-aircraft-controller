@@ -1,0 +1,15 @@
+[package]
+name = "sys"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "sys"
+crate-type = ["cdylib"]  
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cxx = "1.0"
+
+[build-dependencies]
+cxx-build = "1.0"

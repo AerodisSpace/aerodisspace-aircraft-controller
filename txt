@@ -1,0 +1,21 @@
+#include <Servo.h>
+
+Servo esc;
+
+#define MAX_SPEED 2000
+#define MIN_SPEED 1000
+#define ESC_PIN 2
+
+void setup() {
+  
+  esc.attach(ESC_PIN);  
+  delay(1000);  
+  esc.write(0);  
+}
+
+void loop() {
+  esc.write(0);
+  delay(1000);
+  esc.write(45); 
+  delay(1000);
+}
