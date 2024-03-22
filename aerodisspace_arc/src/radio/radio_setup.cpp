@@ -1,4 +1,4 @@
-#include "radio_setup.hh"
+#include "radio_setup.h"
 
 RF24 radio(RADIO_CE_PIN, RADIO_CSN_PIN);
 

@@ -1,6 +1,6 @@
 #include <SPI.h>
 #include <RF24.h>
-#include "../config.hh"
+#include "../config.h"
 
 extern RF24 radio;
 const uint8_t RADIO_ADDRESSES[2][4] = {"000", "001"};

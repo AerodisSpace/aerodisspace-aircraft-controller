@@ -1,7 +1,8 @@
 {
-    "sketch": "aerodisspace-aircraft-controller.ino",
+    "sketch": "aerodisspace_arc/aerodisspace_arc.ino",
+    "output": "aerodisspace_arc/build",
     "configuration": "JTAGAdapter=default,PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=921600,LoopCore=1,EventsCore=1,DebugLevel=none,EraseFlash=none",
     "board": "esp32-bluepad32:esp32:esp32",
-    "port": "COM5",
+    "port": "COM8",
     "programmer": "esptool"
 }

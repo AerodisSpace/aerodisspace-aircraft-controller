@@ -1,4 +1,4 @@
-#include "src/wrapper.hh"
+#include "src/include/wrapper.h"
 
 #ifdef IS_AIRCRAFT
 #define RADIO_IDX 0
@@ -18,7 +18,7 @@ void setup()
 #ifdef IS_AIRCRAFT
     Serial.println("Aircraft Mode");
     // Will wait for the first radio signal from controller, to get the pins configuration for motor and sensors
-    
+
 #elif IS_CONTROLLER
     Serial.println("Controller Mode");
     // Setup BLUETOOTH for controller and Wifi to connect to the server
